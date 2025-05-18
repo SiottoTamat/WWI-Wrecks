@@ -29,8 +29,8 @@ Each record represents a shipwreck event, with the following fields:
 
 ## Formats
 
-- **CSV** (`DB_WWI_Wrecks.csv`): Plain text format suitable for spreadsheets and data processing tools.
-- **GeoJSON** (`DB_WWI_Wrecks.geojson`): Geospatial format for use with GIS software and web mapping platforms.
+- **CSV** (`DB_WWI_Wrecks.csv`): Plain text format suitable for spreadsheets and data processing tools. (with events with unknown coordinates)
+- **GeoJSON** (`DB_WWI_Wrecks.geojson`): Geospatial format for use with GIS software and web mapping platforms. (without events with unknown coordinates)
 
 ## Example Entry
 
